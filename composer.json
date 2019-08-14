@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Payme",
+    "type": "magento-module",
+    "license": "GNU",
+    "homepage": "",
+    "description": "Este módulo facilita pagos mediante tarjeta de crédito utilizando la plataforma Payme de Alignet.",
+    "authors": [
+    {
+        "name": "Jos\u00e9 Alexander Zapata Ruiz",
+        "email": "josezapataruiz@outlook.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

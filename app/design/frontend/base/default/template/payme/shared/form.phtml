@@ -1,0 +1,21 @@
+<fieldset class="form-list">
+    <?php 
+    	$_code=$this->getMethodCode();
+    	$ALIGNET_IDACQUIRER = Mage::getStoreConfig('payment/payme_shared/ALIGNET_IDACQUIRER');
+    ?>
+    <ul id="payment_form_<?php echo $_code ?>" style="display:none">
+        <li>
+        	<?php
+        	if ($ALIGNET_IDACQUIRER==144 || $ALIGNET_IDACQUIRER==84 || $ALIGNET_IDACQUIRER==29 || $ALIGNET_IDACQUIRER==10) {
+        	?>
+            <img src="http://desarrolloweb2r.com/Forma_Pago_Pay-me_PST_PSP.png"/>
+            <?php
+        	} elseif ($ALIGNET_IDACQUIRER==123 || $ALIGNET_IDACQUIRER==23) {
+        	?>
+			<img src="http://desarrolloweb2r.com/Forma_Pago_Pay-me_BIZLINKS_ALTERNATIVO.png"/>
+        	<?php
+        	}
+        	?>
+        </li>
+    </ul>
+</fieldset>

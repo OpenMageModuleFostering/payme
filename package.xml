@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Payme</name>
+    <version>2.0.1</version>
+    <stability>stable</stability>
+    <license>GNU</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Este m&#xF3;dulo facilita pagos mediante tarjeta de cr&#xE9;dito utilizando la plataforma Payme de Alignet.</summary>
+    <description>Este m&#xF3;dulo facilita pagos mediante tarjeta de cr&#xE9;dito utilizando la plataforma Payme de Alignet.</description>
+    <notes>Versi&#xF3;n final del m&#xF3;dulo Pay-me para Magento</notes>
+    <authors><author><name>Jos&#xE9; Alexander Zapata Ruiz</name><user>josezapataruiz</user><email>josezapataruiz@outlook.com</email></author></authors>
+    <date>2016-02-13</date>
+    <time>00:42:31</time>
+    <contents><target name="magelocal"><dir name="Alignet"><dir name="Payme"><dir name="Block"><dir name="Shared"><file name="Form.php" hash="b37f8154ec6e7f9feb9ae88886d6f12c"/><file name="Redirect.php" hash="d813fc6bd2b4d008a77e9b91a38defb7"/></dir></dir><dir name="Controller"><file name="Abstract.php" hash="bf265579912ab96ddfe35b5f7814608b"/></dir><dir name="Helper"><file name="Data.php" hash="9404bfcb67c1fbe45e65d17f98f682d5"/></dir><dir name="Model"><file name="Shared-org.php" hash="869a23c530290c145ab11034efd3a415"/><file name="Shared.php" hash="c5101c8dd62cbc3f735d018170d0226d"/><dir name="Source"><file name="Ambiente.php" hash="6668aff0de4375c3068d0cfa44a97591"/></dir></dir><dir name="controllers"><file name="SharedController.php" hash="4b9d75c6120d9ef08b25b0e55cc4a896"/></dir><dir name="etc"><file name="config.xml" hash="48c0fa6b919abf81fb0dde16d75f4995"/><file name="system.xml" hash="9ffcbcf2b4af6b514db6df0172ecea3d"/></dir><file name="restricciones.txt" hash="548e1a10a261e95221cb102b5bb0b111"/></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="template"><dir name="payme"><file name="form.phtml" hash="68b329da9893e34099c7d8ad5cb9c940"/><file name="info.phtml" hash="d41d8cd98f00b204e9800998ecf8427e"/><dir name="shared"><file name="canceled.phtml" hash="bdef89131c08a83d3c1742399d58b433"/><file name="failure.phtml" hash="a54ece778621c5e2b35f4983923bfeb3"/><file name="form.phtml" hash="eb8baadc62d27620ad14361ec5a8bed2"/></dir></dir></dir></dir></dir></dir><dir name="modules"><file name="Alignet_Payme.xml" hash=""/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.0.0</min><max>7.0.0</max></php></required></dependencies>
+</package>

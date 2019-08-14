@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config>
+	<sections>
+		<payment>
+			<groups>
+				<payme_shared translate="label" module="payme">
+					<label>Pay-me</label>
+					<frontend_type>text</frontend_type>
+					<sort_order>303</sort_order>
+					<show_in_default>1</show_in_default>
+					<show_in_website>1</show_in_website>
+					<show_in_store>0</show_in_store>
+					<fields>
+						<active translate="label">
+							<label>Habilitar</label>
+							<frontend_type>select</frontend_type>
+							<source_model>adminhtml/system_config_source_yesno</source_model>
+							<sort_order>1</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>0</show_in_store>                    
+                        </active>
+						<ALIGNET_URLTPV translate="label">
+							<label>Ambiente</label>
+							<frontend_type>select</frontend_type>
+							<source_model>payme/source_Ambiente</source_model>
+							<sort_order>2</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>0</show_in_store>
+						</ALIGNET_URLTPV>
+						<ALIGNET_DEBUG translate="label">
+							<label>Activar Depuración</label>
+							<comment>Activar esta funcionalidad para realizar pruebas. Cuando se activa, se muestran los valores enviados a la pasarela de pagos.</comment>
+							<frontend_type>select</frontend_type>
+							<source_model>adminhtml/system_config_source_yesno</source_model>
+							<sort_order>3</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>0</show_in_store>
+						</ALIGNET_DEBUG>
+						<ALIGNET_IDENTCOMMERCE translate="label">
+							<label>ID Wallet</label>
+							<frontend_type>text</frontend_type>
+							<sort_order>4</sort_order>
+							<show_in_default>2</show_in_default>
+							<show_in_website>2</show_in_website>
+							<show_in_store>0</show_in_store>
+						</ALIGNET_IDENTCOMMERCE>
+						<ALIGNET_KEYWALLET translate="label">
+							<label>Clave Wallet</label>
+							<frontend_type>text</frontend_type>
+							<sort_order>5</sort_order>
+							<show_in_default>2</show_in_default>
+							<show_in_website>2</show_in_website>
+							<show_in_store>0</show_in_store>
+						</ALIGNET_KEYWALLET>
+						<ALIGNET_IDACQUIRER translate="label">
+							<label>ID Adquirente</label>
+							<frontend_type>text</frontend_type>
+							<sort_order>6</sort_order>
+							<show_in_default>2</show_in_default>
+							<show_in_website>2</show_in_website>
+							<show_in_store>0</show_in_store>
+						</ALIGNET_IDACQUIRER>
+						<ALIGNET_IDCOMMERCE translate="label">
+							<label>ID de Comercio VPOS2</label>
+							<frontend_type>text</frontend_type>
+							<sort_order>7</sort_order>
+							<show_in_default>2</show_in_default>
+							<show_in_website>2</show_in_website>
+							<show_in_store>0</show_in_store>
+						</ALIGNET_IDCOMMERCE>
+						<ALIGNET_MCC translate="label">
+							<label>MCC</label>
+							<frontend_type>text</frontend_type>
+							<sort_order>8</sort_order>
+							<show_in_default>2</show_in_default>
+							<show_in_website>2</show_in_website>
+							<show_in_store>0</show_in_store>
+						</ALIGNET_MCC>
+						<ALIGNET_KEY translate="label">
+							<label>Clave VPOS2</label>
+							<frontend_type>text</frontend_type>
+							<sort_order>9</sort_order>
+							<show_in_default>2</show_in_default>
+							<show_in_website>2</show_in_website>
+							<show_in_store>0</show_in_store>
+						</ALIGNET_KEY>
+					</fields>
+				</payme_shared>
+			</groups>
+		</payment>
+	</sections>
+</config>

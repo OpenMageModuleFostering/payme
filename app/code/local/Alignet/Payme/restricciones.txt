@@ -1,0 +1,10 @@
+Restricciones en el desarrollado de Magento:
+1. No se puede validar el formulario de Administración del Módulo Payme.
+2. Magento bloquea el acceso a los productos del carrito de compras.
+3. El idioma esta en función al Idioma General de la Tienda configurable en al Administrador. El idioma que selecciona el usuario en el frontend sólo es visual.
+4. La página de respuesta es la predeterminada de Magento.
+5. Una ves redirecionada a la pasarela de Alignet, el pedido se registra con estado pendiente. Eliminando los datos de la sesión, y por ende el del carrito.
+6. Si la operación es cancelada, el carrito no se puede cargar de nuevo pues magento no da acceso a los productos del carrito.
+
+Recomendaciones:
+1. Eliminar la opción 'Debug' en la Administración del Módulo Payme.
